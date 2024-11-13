@@ -56,3 +56,27 @@ teamMembers.forEach(element => {
 </div>
 `
 });
+
+// bonus
+
+const form = document.getElementById("form");
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault(); 
+
+    // Ottieni i valori dal form
+    const name = document.getElementById("name").value;
+    const role = document.getElementById("role").value;
+    const email = document.getElementById("email").value;
+    const img = document.getElementById("img").value;
+
+    teamMembers.push({
+        name: name,
+        role: role,
+        email: email,
+        img: img
+    });
+
+    // Rende visibile il nuovo membro
+    renderTeamMembers();
+});

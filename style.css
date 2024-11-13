@@ -5,4 +5,20 @@
     box-sizing: border-box;
 }
 
+h1{
+    color: rgb(255, 28, 123);
+}
 
+.paragrafo{
+    padding: 50px 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

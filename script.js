@@ -44,7 +44,7 @@ const profilo = document.querySelector(".profilo")
 
 teamMembers.forEach(element => {
     profilo.innerHTML += `
-    <div class="col-4 mb-4">
+    <div class="col-12 col-md-6 col-lg-6 mb-4 col-xl-4">
     <div class="card d-flex flex-row bg-black">
         <img src="${element.img}" class="card-img" alt="Immagine della card">
             <div class="card-body d-flex flex-column justify-content-between bg-black">
